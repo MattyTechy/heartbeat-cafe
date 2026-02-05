@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  { id: 1, imageUrl: "src/images/img1.jpg", title: "Our Heart" },
-  { id: 2, imageUrl: "src/images/img5.jpg", title: "Handcrafted Brews" },
-  { id: 3, imageUrl: "src/images/img8.jpg", title: "Crafted Daily" },
-  { id: 4, imageUrl: "src/images/img2.jpg", title: "Cafe Favorites" },
-  { id: 5, imageUrl: "src/images/img3.jpg", title: "Little Details" },
+  { id: 1, imageUrl: "images/img1.jpg", title: "Our Heart" },
+  { id: 2, imageUrl: "images/img5.jpg", title: "Handcrafted Brews" },
+  { id: 3, imageUrl: "images/img8.jpg", title: "Crafted Daily" },
+  { id: 4, imageUrl: "images/img2.jpg", title: "Cafe Favorites" },
+  { id: 5, imageUrl: "images/img3.jpg", title: "Little Details" },
 ];
 
 const TRANSITION = { duration: 0.3, ease: [0.4, 0, 0.2, 1] };

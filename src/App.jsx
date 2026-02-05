@@ -138,7 +138,7 @@ const Hero = () => (
     variants={sectionVariant}
   >
     <div className="absolute inset-0">
-      <img src="src/images/img10.jpg" alt="Coffee shop background" className="w-full h-full object-cover" />
+      <img src="/images/img10.jpg" alt="Coffee shop background" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70 dark:from-black/70 dark:via-black/60 dark:to-black/80" />
     </div>
     <div className="relative z-10 max-w-4xl mx-auto text-white">
@@ -248,7 +248,7 @@ const ContactSection = () => (
                 rel="noopener noreferrer"
                 className="hover:opacity-80"
               >
-                <img src="src/images/fb.png" alt="Facebook" className="w-6 h-6 inline-block" />
+                <img src="/images/fb.png" alt="Facebook" className="w-6 h-6 inline-block" />
               </a>
               <a
                 href="https://www.instagram.com/heartbeatcafeee"
@@ -256,7 +256,7 @@ const ContactSection = () => (
                 rel="noopener noreferrer"
                 className="hover:opacity-80"
               >
-                <img src="src/images/ig.png" alt="Instagram" className="w-6 h-6 inline-block" />
+                <img src="/images/ig.png" alt="Instagram" className="w-6 h-6 inline-block" />
               </a>
             </p>
           </div>
